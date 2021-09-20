@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755d53bc-e458-4b18-aefc-355fcc1d6b87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencvLearn/10cv_sobel算子_边缘检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencvLearn/10cv_sobel算子_边缘检测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencvLearn/11cv_Scharr算子_边缘检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencvLearn/11cv_Scharr算子_边缘检测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1" beforeDir="false" afterPath="$PROJECT_DIR$/py1" afterDir="false" />
-    </list>
+    <list default="true" id="755d53bc-e458-4b18-aefc-355fcc1d6b87" name="Default Changelist" comment="增加提示信息" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,6 +169,14 @@
       <option name="presentableId" value="Default" />
       <updated>1623327894581</updated>
     </task>
+    <task id="LOCAL-00001" summary="增加提示信息">
+      <created>1632117038743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632117038743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +190,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加提示信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加提示信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
