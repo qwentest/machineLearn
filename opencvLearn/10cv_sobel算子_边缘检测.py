@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 """
 https://blog.csdn.net/weixin_41500849/article/details/80611263
 Sobel算子根据像素点的上下、左右相邻点的灰度加权差，在边缘达到极值的现象来检测边缘。Sobel算子是一种常用的边缘检测方法。
-
+可以用它来表明其清晰度。
 
 在Sobel函数的第二个参数这里使用了cv2.CV_16S。
 因为OpenCV文档中对Sobel算子的介绍中有这么一句：

@@ -12,7 +12,6 @@ https://www.cnblogs.com/babycomeon/p/13282389.html
 
 import cv2 as cv
 import matplotlib.pyplot as plt
-
 img = cv.imread("./img/girl.png")
 rgb_img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 
