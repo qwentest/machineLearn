@@ -177,33 +177,33 @@ def verfiy_result(final_theta):
 
 
 if __name__ == "__main__":
-    data = read_csv(isShow=False)
+    # data = read_csv(isShow=False)
     #################################################################################
     # 验证为什么是sigmoid这个函数
-    # verfiy_sigmoid()
+    verfiy_sigmoid()
 
     #################################################################################
     # 验证为什么损失函数要用log()
     # verfiy_log()
     #################################################################################
     # add a ones column - this makes the matrix multiplication work out easier
-    if 'Ones' not in data.columns:
-        data.insert(0, 'Ones', 1)
-    # set X (training data) and y (target variable)
-    data = data.sample(frac=0.6)
-    X = data.iloc[:, :-1].values  # Convert the frame to its Numpy-array representation.
-    y = data.iloc[:, -1].values  # Return is NOT a Numpy-matrix, rather, a Numpy-array.
-    #################################################################################
-    theta = np.zeros(X.shape[1])
-    l = LGR(X, y)
-    final_theta, cost = l.gradientDescent(0.00001, 200000, theta)
-    print(l.hLGRTheta(final_theta),final_theta)
+    # if 'Ones' not in data.columns:
+    #     data.insert(0, 'Ones', 1)
+    # # set X (training data) and y (target variable)
+    # data = data.sample(frac=0.6)
+    # X = data.iloc[:, :-1].values  # Convert the frame to its Numpy-array representation.
+    # y = data.iloc[:, -1].values  # Return is NOT a Numpy-matrix, rather, a Numpy-array.
     # #################################################################################
-    # # 将数据用来做验证
-    data = data.sample(frac=0.2)
-    X = data.iloc[:, :-1].values
-    y = data.iloc[:, -1].values
-    print(l.veriy_LRG_correct(final_theta, X, y))
+    # theta = np.zeros(X.shape[1])
+    # l = LGR(X, y)
+    # final_theta, cost = l.gradientDescent(0.00001, 200000, theta)
+    # print(l.hLGRTheta(final_theta),final_theta)
+    # # #################################################################################
+    # # # 将数据用来做验证
+    # data = data.sample(frac=0.2)
+    # X = data.iloc[:, :-1].values
+    # y = data.iloc[:, -1].values
+    # print(l.veriy_LRG_correct(final_theta, X, y))
     # #################################################################################
     # 图形化验证
     # verfiy_result(np.array([-7.45017822 , 0.06550395 , 0.05898701]))
